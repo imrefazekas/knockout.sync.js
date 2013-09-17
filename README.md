@@ -8,6 +8,7 @@ knockout.sync.js
 
 You want to roll out new version of viewmodel-related functions / computings / validation rules without forcing users to restart?
 Clients might be using multiple devices at the same time?
+
 [knockout.sync.js](https://github.com/imrefazekas/knockout.sync.js) is a tiny ko-extension giving real-time synchronizing feature to your project.
 
 You modify your form/values on one device and you see the changes on the client devices on the fly transparently.
