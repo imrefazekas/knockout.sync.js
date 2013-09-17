@@ -23,6 +23,8 @@ The [knockout.sync.js](https://github.com/imrefazekas/knockout.sync.js) supports
 	- computed values
 	- functions
 
+Currently it uses [socket.io](http://socket.io) library to buid-up websockets as connectivity. If you need different ways, please let me know...
+
 
 ## Centrally managed models
 
@@ -83,4 +85,6 @@ And that's it! :)
 
 # Timestamping
 
-Timestamped sync is an option you might find important: keeping sync in control by adding timestamp to changes by the backend preventing clients to react to outdated data. Only the changes with newer version will be taken into account.
+Timestamped sync is an option you might find important: keeping sync in control by adding timestamp to changes by the backend preventing clients to react to outdated data.
+
+Only the changes with newer version will be taken into account.
