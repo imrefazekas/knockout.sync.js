@@ -1,0 +1,29 @@
+<html>
+<head>
+	<script src="js/socket.io.min.js"></script>
+	<script src="js/funcsync.min.js"></script>
+	<script src="js/knockout-latest.js"></script>
+	<script src="js/knockout-latest.js"></script>
+	<script src="js/knockout.mapper.min.js"></script>
+	<script src="js/knockout.sync.min.js"></script>
+</head>
+<body>
+	<p>First name: <strong data-bind="text: firstName"></strong></p>
+	<p>Last name: <strong data-bind="text: lastName"></strong></p>
+
+	<p>First name: <input data-bind="value: firstName" /></p>
+	<p>Last name: <input data-bind="value: lastName" /></p>
+
+	<p>Full name: <strong data-bind="text: fullName"></strong></p>
+
+	<button data-bind="click: capitalizeLastName">Go caps</button>
+
+	<button onclick="ko.doSync()">Sync!</button>
+
+	<script>
+		ko.keepInSync({
+			versioned: true, URI:'http://localhost:8080/ko', modelMessage:'updateModel', dataMessage:'updateData', shareMessage:'share'
+		});
+	</script>
+</body>
+</html>
