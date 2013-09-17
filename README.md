@@ -3,6 +3,7 @@ knockout.sync.js
 
 [knockout.sync.js](https://github.com/imrefazekas/knockout.sync.js) is a [knockoutjs](http://knockoutjs.com) extension allowing you to synchronize models and values between client(s) and backend(s).
 
+![Demo](/demo.gif)
 
 # Introduction
 
