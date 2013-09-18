@@ -1,7 +1,7 @@
 knockout.sync.js
 ================
 
-[knockout.sync.js](https://github.com/imrefazekas/knockout.sync.js) is a [knockoutjs](http://knockoutjs.com) extension allowing you to manage __centrally__ and __synchronize viewmodels__ and all its business logic between client(s) and backend(s).
+[knockout.sync.js](https://github.com/imrefazekas/knockout.sync.js) is a [knockoutjs](http://knockoutjs.com) extension allowing you to __manage centrally__ and __synchronize viewmodels__ and all its business logic between client(s) and backend(s).
 
 ![Demo](/demo.gif)
 
