@@ -1,4 +1,4 @@
-/// Knockout Sync plugin v0.5.0
+/// Knockout Sync plugin v0.5.1
 /// (c) 2013 Imre Fazekas
 /// License: MIT (http://www.opensource.org/licenses/mit-license.php)
 (function (factory) {

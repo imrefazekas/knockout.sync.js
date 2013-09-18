@@ -1,6 +1,6 @@
 {
   "name": "knockout.sync.js",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Knockout.js plugin to keep models in sync with devices and backends.",
   "homepage": "https://github.com/imrefazekas/knockout.sync.js",
   "dependencies": {
@@ -13,7 +13,9 @@
     "knockout",
     "synchronization",
     "model",
-    "server"
+    "server",
+    "realtime",
+    "viewmodel update"
   ],
   "repository": {
     "type": "git",
@@ -46,5 +48,5 @@
   },
   "readme": "README.md",
   "readmeFilename": "README.md",
-  "_id": "knockout.sync.js@0.5.0"
+  "_id": "knockout.sync.js@0.5.1"
 }
