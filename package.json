@@ -1,6 +1,6 @@
 {
   "name": "knockout.sync.js",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Knockout.js plugin to keep models in sync with devices and backends.",
   "homepage": "https://github.com/imrefazekas/knockout.sync.js",
   "dependencies": {
@@ -46,7 +46,5 @@
     "vindication.js": "~1",
     "connect": "~2"
   },
-  "readme": "README.md",
-  "readmeFilename": "README.md",
-  "_id": "knockout.sync.js@0.5.1"
+  "_id": "knockout.sync.js@0.5.2"
 }
