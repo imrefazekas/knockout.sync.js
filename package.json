@@ -1,6 +1,6 @@
 {
   "name": "knockout.sync.js",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "description": "Knockout.js plugin to keep models in sync with devices and backends.",
   "homepage": "https://github.com/imrefazekas/knockout.sync.js",
   "dependencies": {
@@ -37,14 +37,15 @@
   "main": "knockout.sync.js",
   "scripts": {},
   "devDependencies": {
-    "grunt": "~0.4",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-uglify": "latest",
-    "funcsync": "~1",
-    "vindication.js": "~1",
-    "connect": "~2"
+    "connect": "~2",
+    "funcsync": "latest",
+    "gulp": "latest",
+    "gulp-jshint": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-rename": "latest",
+    "gulp-rimraf": "latest",
+    "gulp-uglify": "latest",
+    "vindication.js": "latest"
   },
-  "_id": "knockout.sync.js@0.5.5"
+  "_id": "knockout.sync.js@0.6.0"
 }
